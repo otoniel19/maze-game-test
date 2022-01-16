@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>labirinto</title>
+  <style type="text/css" media="all">
+    button {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="cvs" width="395" height="300"></canvas>
+  <br />
+  <center>
+    <div id="nipplejs"></div>
+  </center>
+  <img style="display: none" id="img" src="images/bg.jpg" alt="images/bg.png" />
+
+  <br>
+
+ <!-- <button onclick="startPosX +=60">▶️</button>
+  <button onclick="startPosX -=60">◀️</button>
+  <button onclick="startPosY -= 60">🔼</button>
+  <button onclick="startPosY += 60">🔽</button>
+
+  <button onclick="fastAdd()">ADD</button>
+  <button onclick="fastRemove()">POP</button>
+-->
+  <img style="display: none" id="player" src="images/player.png" />
+  <img style="display: none" id="wall" src="images/wall.png" />
+  <script src="cdn_modules/nipplejs@0.9.0/nipplejs.min.js"></script>
+  <script src="js/Sprites.js"></script>
+  <script src="js/Wall.js"></script>
+  <script src="js/Control.js"></script>
+  <script src="js/index.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
